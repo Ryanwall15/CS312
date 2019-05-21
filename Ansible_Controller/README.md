@@ -31,6 +31,6 @@ In order to run this you need these files/programs:
 **In order for this to work, the IP addresses will be 192.168.1.20-192.168.1.23** 
 
 **There is a possibility with the curl from my Github to the VM, formatting will be changed. To fix this run the following command:**
-``` sudo yum install -y dos2unix ```
+``` sudo yum install -y dos2unix ``` and then 
 ``` dos2unix hw7.sh ```
 This should allow the shell script to be ran properly 
