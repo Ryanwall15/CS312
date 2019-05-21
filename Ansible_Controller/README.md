@@ -14,6 +14,18 @@ In order to run this you need these files/programs:
 
 **Instructions:** 
 1. Start pfSense Router. **Wait until router VM is up**
-2. Start the CentOS CLI VM up. 
-3. Start up the 4 Alpine_Reference VM's
-4. In each Alpine_Reference VM, use the command ``` ip addr ``` to retrieve the IP addresses of the 4 machines
+2. Start the CentOS CLI VM up  **Wait until CentOS VM is up**. 
+3. Start up the 4 Alpine_Reference VM's.
+4. Log in and in each Alpine_Reference VM, use the command ``` ip addr ``` to retrieve the IP addresses of the 4 machines. Make sure the IP address of the first one booted ends with a .20 and the following go up by one.
+5. Download the files needed for this assignemnt:
+* curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/ansible-index.html > ~/ansible-index.html
+* curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/hosts.ini > ~/hosts.ini
+* curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/hw7.sh > ~/hw7.sh
+* curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/webserver.yaml > ~/webserver.yaml
+6. Run the shell script by running the command ``` sh hw7.sh ```
+* You will be prompted to enter the file to save the key. **Press Enter**
+* If the key already exists you will ask to overwrite it. **Press y**
+* You will then **Press Enter** 2 times.
+* Enter the password for the alpine VM's. It will ask you 4 times because there's 4 alpine VM's.
+
+**In order for this to work, the IP addresses will be 192.168.1.20-192.168.1.23** 
