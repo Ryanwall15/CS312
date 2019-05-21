@@ -23,4 +23,9 @@ In order to run this you need these files/programs:
 * curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/hw7.sh > ~/hw7.sh
 * curl https://raw.githubusercontent.com/Ryanwall15/CS312/master/Ansible_Controller/webserver.yaml > ~/webserver.yaml
 6. Run the shell script by running the command ``` sh hw7.sh ```
+* You will be prompted to enter the file to save the key. **Press Enter**
+* If the key already exists you will ask to overwrite it. **Press y**
+* You will then **Press Enter** 2 times.
+* Enter the password for the alpine VM's. It will ask you 4 times because there's 4 alpine VM's.
 
+**In order for this to work, the IP addresses will be 192.168.1.20-192.168.1.23** 
