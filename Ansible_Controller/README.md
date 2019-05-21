@@ -29,3 +29,8 @@ In order to run this you need these files/programs:
 * Enter the password for the alpine VM's. It will ask you 4 times because there's 4 alpine VM's.
 
 **In order for this to work, the IP addresses will be 192.168.1.20-192.168.1.23** 
+
+**There is a possibility with the curl from my Github to the VM, formatting will be changed. To fix this run the following command:**
+``` sudo yum install -y dos2unix ```
+``` dos2unix hw7.sh ```
+This should allow the shell script to be ran properly 
